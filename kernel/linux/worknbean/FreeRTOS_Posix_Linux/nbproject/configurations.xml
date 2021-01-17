@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="Demo" displayName="Demo" projectFiles="true">
+      <logicalFolder name="include" displayName="include" projectFiles="true">
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/AbortDelay.h</itemPath>
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/BlockQ.h</itemPath>
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/EventGroupsDemo.h</itemPath>
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/GenQTest.h</itemPath>
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/IntSemTest.h</itemPath>
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/PollQ.h</itemPath>
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/QPeek.h</itemPath>
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/QueueOverwrite.h</itemPath>
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/QueueSet.h</itemPath>
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/QueueSetPolling.h</itemPath>
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/TaskNotify.h</itemPath>
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/TimerDemo.h</itemPath>
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/blocktim.h</itemPath>
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/countsem.h</itemPath>
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/death.h</itemPath>
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/dynamic.h</itemPath>
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/flop.h</itemPath>
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/integer.h</itemPath>
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/print.h</itemPath>
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/recmutex.h</itemPath>
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/semtest.h</itemPath>
+      </logicalFolder>
+      <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/AbortDelay.c</itemPath>
+      <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/BlockQ.c</itemPath>
+      <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/EventGroupsDemo.c</itemPath>
+      <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/GenQTest.c</itemPath>
+      <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/IntSemTest.c</itemPath>
+      <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/PollQ.c</itemPath>
+      <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/QPeek.c</itemPath>
+      <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/QueueOverwrite.c</itemPath>
+      <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/QueueSet.c</itemPath>
+      <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/QueueSetPolling.c</itemPath>
+      <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/TaskNotify.c</itemPath>
+      <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/TimerDemo.c</itemPath>
+      <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/blocktim.c</itemPath>
+      <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/countsem.c</itemPath>
+      <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/death.c</itemPath>
+      <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/dynamic.c</itemPath>
+      <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/flop.c</itemPath>
+      <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/integer.c</itemPath>
+      <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/print.c</itemPath>
+      <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/recmutex.c</itemPath>
+      <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/semtest.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="Project" displayName="Project" projectFiles="true">
+      <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Project/FreeRTOSConfig.h</itemPath>
+      <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Project/main.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="Source" displayName="Source" projectFiles="true">
+      <logicalFolder name="include" displayName="include" projectFiles="true">
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/FreeRTOS.h</itemPath>
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/StackMacros.h</itemPath>
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/croutine.h</itemPath>
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/deprecated_definitions.h</itemPath>
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/event_groups.h</itemPath>
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/list.h</itemPath>
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/mpu_prototypes.h</itemPath>
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/mpu_wrappers.h</itemPath>
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/portable.h</itemPath>
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/projdefs.h</itemPath>
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/queue.h</itemPath>
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/semphr.h</itemPath>
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/stdint.readme</itemPath>
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/task.h</itemPath>
+        <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/timers.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="portable" displayName="portable" projectFiles="true">
+        <logicalFolder name="GCC" displayName="GCC" projectFiles="true">
+          <logicalFolder name="POSIX" displayName="POSIX" projectFiles="true">
+            <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Source/portable/GCC/POSIX/port.c</itemPath>
+            <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Source/portable/GCC/POSIX/portmacro.h</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="MemMang" displayName="MemMang" projectFiles="true">
+          <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Source/portable/MemMang/heap_3.c</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Source/croutine.c</itemPath>
+      <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Source/event_groups.c</itemPath>
+      <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Source/list.c</itemPath>
+      <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Source/queue.c</itemPath>
+      <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Source/readme.txt</itemPath>
+      <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Source/tasks.c</itemPath>
+      <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Source/timers.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/Makefile</itemPath>
+    <itemPath>../../LinuxOS/FreeRTOS/Posix_Linux/README.md</itemPath>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../../FreeRTOS/Posix_Linux/Demo</Elem>
+    <Elem>../../FreeRTOS/Posix_Linux/Project</Elem>
+    <Elem>../../FreeRTOS/Posix_Linux/Source</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>GNU|GNU</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <incDir>
+            <pElem>../../LinuxOS/FreeRTOS/Posix_Linux/Source/include</pElem>
+            <pElem>../../LinuxOS/FreeRTOS/Posix_Linux/Source/portable/GCC/POSIX</pElem>
+            <pElem>../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include</pElem>
+            <pElem>../../LinuxOS/FreeRTOS/Posix_Linux/Project</pElem>
+          </incDir>
+          <commandLine>-g -pthread -O2 -lrt -fmessage-length=0 -Wall -Wno-pointer-sign</commandLine>
+          <preprocessorList>
+            <Elem>DEBUG=1</Elem>
+            <Elem>MAX_NUMBER_OF_TASKS=300</Elem>
+            <Elem>__GCC_POSIX__=1</Elem>
+          </preprocessorList>
+        </cTool>
+      </compileType>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/AbortDelay.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/BlockQ.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/EventGroupsDemo.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/GenQTest.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/IntSemTest.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/PollQ.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/QPeek.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/QueueOverwrite.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/QueueSet.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/QueueSetPolling.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/TaskNotify.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/TimerDemo.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/blocktim.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/countsem.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/death.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/dynamic.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/flop.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/AbortDelay.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/BlockQ.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/EventGroupsDemo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/GenQTest.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/IntSemTest.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/PollQ.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/QPeek.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/QueueOverwrite.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/QueueSet.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/QueueSetPolling.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/TaskNotify.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/TimerDemo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/blocktim.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/countsem.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/death.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/dynamic.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/flop.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/integer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/print.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/recmutex.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/semtest.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/integer.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/print.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/recmutex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/semtest.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Makefile"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Project/FreeRTOSConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Project/main.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/README.md"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/croutine.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/event_groups.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/FreeRTOS.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/StackMacros.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/croutine.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/deprecated_definitions.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/event_groups.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/list.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/mpu_prototypes.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/mpu_wrappers.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/portable.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/projdefs.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/queue.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/semphr.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/stdint.readme"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/task.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/timers.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/list.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/portable/GCC/POSIX/port.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/portable/GCC/POSIX/portmacro.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/portable/MemMang/heap_3.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/queue.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/readme.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/tasks.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/timers.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/AbortDelay.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/BlockQ.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/EventGroupsDemo.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/GenQTest.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/IntSemTest.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/PollQ.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/QPeek.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/QueueOverwrite.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/QueueSet.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/QueueSetPolling.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/TaskNotify.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/TimerDemo.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/blocktim.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/countsem.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/death.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/dynamic.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/flop.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/AbortDelay.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/BlockQ.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/EventGroupsDemo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/GenQTest.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/IntSemTest.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/PollQ.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/QPeek.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/QueueOverwrite.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/QueueSet.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/QueueSetPolling.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/TaskNotify.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/TimerDemo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/blocktim.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/countsem.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/death.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/dynamic.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/flop.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/integer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/print.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/recmutex.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/include/semtest.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/integer.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/print.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/recmutex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Demo/semtest.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Makefile"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Project/FreeRTOSConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Project/main.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/README.md"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/croutine.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/event_groups.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/FreeRTOS.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/StackMacros.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/croutine.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/deprecated_definitions.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/event_groups.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/list.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/mpu_prototypes.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/mpu_wrappers.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/portable.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/projdefs.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/queue.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/semphr.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/stdint.readme"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/task.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/include/timers.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/list.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/portable/GCC/POSIX/port.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/portable/GCC/POSIX/portmacro.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/portable/MemMang/heap_3.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/queue.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/readme.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/tasks.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../LinuxOS/FreeRTOS/Posix_Linux/Source/timers.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

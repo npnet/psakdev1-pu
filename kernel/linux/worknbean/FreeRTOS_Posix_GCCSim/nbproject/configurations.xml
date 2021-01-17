@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="AsyncIO" displayName="AsyncIO" projectFiles="true">
+      <itemPath>../../FreeRTOS/Posix_GCCSim/AsyncIO/AsyncIO.c</itemPath>
+      <itemPath>../../FreeRTOS/Posix_GCCSim/AsyncIO/AsyncIO.h</itemPath>
+      <itemPath>../../FreeRTOS/Posix_GCCSim/AsyncIO/AsyncIOSerial.c</itemPath>
+      <itemPath>../../FreeRTOS/Posix_GCCSim/AsyncIO/AsyncIOSerial.h</itemPath>
+      <itemPath>../../FreeRTOS/Posix_GCCSim/AsyncIO/AsyncIOSocket.c</itemPath>
+      <itemPath>../../FreeRTOS/Posix_GCCSim/AsyncIO/AsyncIOSocket.h</itemPath>
+      <itemPath>../../FreeRTOS/Posix_GCCSim/AsyncIO/PosixMessageQueueIPC.c</itemPath>
+      <itemPath>../../FreeRTOS/Posix_GCCSim/AsyncIO/PosixMessageQueueIPC.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="Common_Demo" displayName="Common_Demo" projectFiles="true">
+      <logicalFolder name="Full" displayName="Full" projectFiles="true">
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/Full/BlockQ.c</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/Full/PollQ.c</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/Full/death.c</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/Full/dynamic.c</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/Full/events.c</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/Full/flash.c</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/Full/flop.c</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/Full/integer.c</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/Full/print.c</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/Full/semtest.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="include" displayName="include" projectFiles="true">
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/include/BlockQ.h</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/include/GenQTest.h</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/include/PollQ.h</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/include/QPeek.h</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/include/blocktim.h</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/include/countsem.h</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/include/crflash.h</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/include/crhook.h</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/include/death.h</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/include/dynamic.h</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/include/fileIO.h</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/include/flash.h</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/include/flop.h</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/include/integer.h</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/include/mevents.h</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/include/partest.h</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/include/print.h</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/include/recmutex.h</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/include/semtest.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Minimal" displayName="Minimal" projectFiles="true">
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/Minimal/GenQTest.c</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/Minimal/QPeek.c</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/Minimal/blocktim.c</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/Minimal/countsem.c</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/Minimal/crflash.c</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/Minimal/crhook.c</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/Common_Demo/Minimal/recmutex.c</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="FileIO" displayName="FileIO" projectFiles="true">
+      <itemPath>../../FreeRTOS/Posix_GCCSim/FileIO/fileIO.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="FreeRTOS_Kernel"
+                   displayName="FreeRTOS_Kernel"
+                   projectFiles="true">
+      <logicalFolder name="include" displayName="include" projectFiles="true">
+        <itemPath>../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/include/FreeRTOS.h</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/include/StackMacros.h</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/include/croutine.h</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/include/list.h</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/include/mpu_wrappers.h</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/include/portable.h</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/include/projdefs.h</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/include/queue.h</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/include/semphr.h</itemPath>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/include/task.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="portable" displayName="portable" projectFiles="true">
+        <logicalFolder name="GCC" displayName="GCC" projectFiles="true">
+          <logicalFolder name="Posix" displayName="Posix" projectFiles="true">
+            <itemPath>../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/portable/GCC/Posix/port.c</itemPath>
+            <itemPath>../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/portable/GCC/Posix/portmacro.h</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="MemMang" displayName="MemMang" projectFiles="true">
+          <itemPath>../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/portable/MemMang/heap_3.c</itemPath>
+        </logicalFolder>
+        <itemPath>../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/portable/readme.txt</itemPath>
+      </logicalFolder>
+      <itemPath>../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/croutine.c</itemPath>
+      <itemPath>../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/list.c</itemPath>
+      <itemPath>../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/queue.c</itemPath>
+      <itemPath>../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/readme.txt</itemPath>
+      <itemPath>../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/tasks.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ParTest" displayName="ParTest" projectFiles="true">
+      <itemPath>../../FreeRTOS/Posix_GCCSim/ParTest/ParTest.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>../../FreeRTOS/Posix_GCCSim/FreeRTOSConfig.h</itemPath>
+    <itemPath>../../FreeRTOS/Posix_GCCSim/Readme.txt</itemPath>
+    <itemPath>../../FreeRTOS/Posix_GCCSim/main.c</itemPath>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../../FreeRTOS/Posix_GCCSim/AsyncIO</Elem>
+    <Elem>../../FreeRTOS/Posix_GCCSim/Common_Demo</Elem>
+    <Elem>../../FreeRTOS/Posix_GCCSim/FileIO</Elem>
+    <Elem>../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel</Elem>
+    <Elem>../../FreeRTOS/Posix_GCCSim/ParTest</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>GNU|GNU</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <incDir>
+            <pElem>../../FreeRTOS/Posix_GCCSim</pElem>
+            <pElem>../../FreeRTOS/Posix_GCCSim/Common_Demo/include</pElem>
+            <pElem>../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/include</pElem>
+            <pElem>../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/portable/GCC/Posix</pElem>
+          </incDir>
+          <commandLine>-O0 -g -Wall -fmessage-length=0 -pthread -lrt -Wno-pointer-sign</commandLine>
+          <preprocessorList>
+            <Elem>DEBUG_BUILD=1</Elem>
+            <Elem>USE_STDIO=1</Elem>
+            <Elem>__GCC_POSIX__=1</Elem>
+          </preprocessorList>
+        </cTool>
+      </compileType>
+      <item path="../../FreeRTOS/Posix_GCCSim/AsyncIO/AsyncIO.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/AsyncIO/AsyncIO.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/AsyncIO/AsyncIOSerial.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/AsyncIO/AsyncIOSerial.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/AsyncIO/AsyncIOSocket.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/AsyncIO/AsyncIOSocket.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/AsyncIO/PosixMessageQueueIPC.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/AsyncIO/PosixMessageQueueIPC.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/Full/BlockQ.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/Full/PollQ.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/Full/death.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/Full/dynamic.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/Full/events.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/Full/flash.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/Full/flop.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/Full/integer.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/Full/print.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/Full/semtest.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/Minimal/GenQTest.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/Minimal/QPeek.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/Minimal/blocktim.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/Minimal/countsem.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/Minimal/crflash.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/Minimal/crhook.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/Minimal/recmutex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/BlockQ.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/GenQTest.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/PollQ.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/QPeek.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/blocktim.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/countsem.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/crflash.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/crhook.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/death.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/dynamic.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/fileIO.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/flash.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/flop.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/integer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/mevents.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/partest.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/print.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/recmutex.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/semtest.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FileIO/fileIO.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOSConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/croutine.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/include/FreeRTOS.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/include/StackMacros.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/include/croutine.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/include/list.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/include/mpu_wrappers.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/include/portable.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/include/projdefs.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/include/queue.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/include/semphr.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/include/task.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/list.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/portable/GCC/Posix/port.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/portable/GCC/Posix/portmacro.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/portable/MemMang/heap_3.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/portable/readme.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/queue.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/readme.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/tasks.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/ParTest/ParTest.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Readme.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/main.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="../../FreeRTOS/Posix_GCCSim/AsyncIO/AsyncIO.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/AsyncIO/AsyncIO.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/AsyncIO/AsyncIOSerial.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/AsyncIO/AsyncIOSerial.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/AsyncIO/AsyncIOSocket.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/AsyncIO/AsyncIOSocket.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/AsyncIO/PosixMessageQueueIPC.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/AsyncIO/PosixMessageQueueIPC.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/Full/BlockQ.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/Full/PollQ.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/Full/death.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/Full/dynamic.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/Full/events.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/Full/flash.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/Full/flop.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/Full/integer.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/Full/print.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/Full/semtest.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/Minimal/GenQTest.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/Minimal/QPeek.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/Minimal/blocktim.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/Minimal/countsem.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/Minimal/crflash.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/Minimal/crhook.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/Minimal/recmutex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/BlockQ.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/GenQTest.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/PollQ.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/QPeek.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/blocktim.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/countsem.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/crflash.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/crhook.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/death.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/dynamic.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/fileIO.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/flash.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/flop.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/integer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/mevents.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/partest.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/print.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/recmutex.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Common_Demo/include/semtest.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FileIO/fileIO.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOSConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/croutine.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/include/FreeRTOS.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/include/StackMacros.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/include/croutine.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/include/list.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/include/mpu_wrappers.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/include/portable.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/include/projdefs.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/include/queue.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/include/semphr.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/include/task.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/list.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/portable/GCC/Posix/port.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/portable/GCC/Posix/portmacro.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/portable/MemMang/heap_3.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/portable/readme.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/queue.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/readme.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/FreeRTOS_Kernel/tasks.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/ParTest/ParTest.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/Readme.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../FreeRTOS/Posix_GCCSim/main.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

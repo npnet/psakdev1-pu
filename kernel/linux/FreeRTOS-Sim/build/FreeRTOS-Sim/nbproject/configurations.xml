@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="f1" displayName="Project" projectFiles="true">
+      <logicalFolder name="f1" displayName="Demo" projectFiles="true">
+        <logicalFolder name="f1" displayName="Common" projectFiles="true">
+          <logicalFolder name="f1" displayName="include" projectFiles="true">
+            <itemPath>../../Demo/Common/include/AbortDelay.h</itemPath>
+            <itemPath>../../Demo/Common/include/BlockQ.h</itemPath>
+            <itemPath>../../Demo/Common/include/EventGroupsDemo.h</itemPath>
+            <itemPath>../../Demo/Common/include/GenQTest.h</itemPath>
+            <itemPath>../../Demo/Common/include/IntSemTest.h</itemPath>
+            <itemPath>../../Demo/Common/include/PollQ.h</itemPath>
+            <itemPath>../../Demo/Common/include/QPeek.h</itemPath>
+            <itemPath>../../Demo/Common/include/QueueOverwrite.h</itemPath>
+            <itemPath>../../Demo/Common/include/QueueSet.h</itemPath>
+            <itemPath>../../Demo/Common/include/QueueSetPolling.h</itemPath>
+            <itemPath>../../Demo/Common/include/TaskNotify.h</itemPath>
+            <itemPath>../../Demo/Common/include/TimerDemo.h</itemPath>
+            <itemPath>../../Demo/Common/include/blocktim.h</itemPath>
+            <itemPath>../../Demo/Common/include/countsem.h</itemPath>
+            <itemPath>../../Demo/Common/include/death.h</itemPath>
+            <itemPath>../../Demo/Common/include/dynamic.h</itemPath>
+            <itemPath>../../Demo/Common/include/flop.h</itemPath>
+            <itemPath>../../Demo/Common/include/integer.h</itemPath>
+            <itemPath>../../Demo/Common/include/recmutex.h</itemPath>
+            <itemPath>../../Demo/Common/include/semtest.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f2" displayName="Minimal" projectFiles="true">
+            <itemPath>../../Demo/Common/Minimal/AbortDelay.c</itemPath>
+            <itemPath>../../Demo/Common/Minimal/BlockQ.c</itemPath>
+            <itemPath>../../Demo/Common/Minimal/EventGroupsDemo.c</itemPath>
+            <itemPath>../../Demo/Common/Minimal/GenQTest.c</itemPath>
+            <itemPath>../../Demo/Common/Minimal/IntSemTest.c</itemPath>
+            <itemPath>../../Demo/Common/Minimal/PollQ.c</itemPath>
+            <itemPath>../../Demo/Common/Minimal/QPeek.c</itemPath>
+            <itemPath>../../Demo/Common/Minimal/QueueOverwrite.c</itemPath>
+            <itemPath>../../Demo/Common/Minimal/QueueSet.c</itemPath>
+            <itemPath>../../Demo/Common/Minimal/QueueSetPolling.c</itemPath>
+            <itemPath>../../Demo/Common/Minimal/TaskNotify.c</itemPath>
+            <itemPath>../../Demo/Common/Minimal/TimerDemo.c</itemPath>
+            <itemPath>../../Demo/Common/Minimal/blocktim.c</itemPath>
+            <itemPath>../../Demo/Common/Minimal/countsem.c</itemPath>
+            <itemPath>../../Demo/Common/Minimal/death.c</itemPath>
+            <itemPath>../../Demo/Common/Minimal/dynamic.c</itemPath>
+            <itemPath>../../Demo/Common/Minimal/flop.c</itemPath>
+            <itemPath>../../Demo/Common/Minimal/integer.c</itemPath>
+            <itemPath>../../Demo/Common/Minimal/recmutex.c</itemPath>
+            <itemPath>../../Demo/Common/Minimal/semtest.c</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+      </logicalFolder>
+      <itemPath>../../Project/main.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="f2" displayName="Source" projectFiles="true">
+      <logicalFolder name="f1" displayName="include" projectFiles="true">
+        <itemPath>../../Source/include/FreeRTOS.h</itemPath>
+        <itemPath>../../Source/include/event_groups.h</itemPath>
+        <itemPath>../../Source/include/list.h</itemPath>
+        <itemPath>../../Source/include/portable.h</itemPath>
+        <itemPath>../../Source/include/queue.h</itemPath>
+        <itemPath>../../Source/include/task.h</itemPath>
+        <itemPath>../../Source/include/timers.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="portable" projectFiles="true">
+        <logicalFolder name="f1" displayName="GCC" projectFiles="true">
+          <logicalFolder name="f1" displayName="POSIX" projectFiles="true">
+            <itemPath>../../Source/portable/GCC/POSIX/port.c</itemPath>
+            <itemPath>../../Source/portable/GCC/POSIX/portmacro.h</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="f2" displayName="MemMang" projectFiles="true">
+          <itemPath>../../Source/portable/MemMang/heap_1.c</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <itemPath>../../Source/event_groups.c</itemPath>
+      <itemPath>../../Source/list.c</itemPath>
+      <itemPath>../../Source/queue.c</itemPath>
+      <itemPath>../../Source/tasks.c</itemPath>
+      <itemPath>../../Source/timers.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../../Project</Elem>
+    <Elem>../../Demo/Common/include</Elem>
+    <Elem>../../Demo/Common/Minimal</Elem>
+    <Elem>../../Source</Elem>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <incDir>
+            <pElem>../../Project</pElem>
+            <pElem>../../Source/include</pElem>
+            <pElem>../../Source/portable/GCC/POSIX</pElem>
+            <pElem>../../Demo/Common/include</pElem>
+            <pElem>../../Demo/Common/Minimal</pElem>
+            <pElem>../../Source</pElem>
+            <pElem>../../Source/portable/MemMang</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <commandLine>-lpthread -pthread</commandLine>
+        </cTool>
+      </compileType>
+      <item path="../../Demo/Common/Minimal/AbortDelay.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/BlockQ.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/EventGroupsDemo.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/GenQTest.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/IntSemTest.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/PollQ.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/QPeek.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/QueueOverwrite.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/QueueSet.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/QueueSetPolling.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/TaskNotify.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/TimerDemo.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/blocktim.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/countsem.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/death.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/dynamic.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/flop.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/integer.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/recmutex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/semtest.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/AbortDelay.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/BlockQ.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/EventGroupsDemo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/GenQTest.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/IntSemTest.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/PollQ.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/QPeek.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/QueueOverwrite.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/QueueSet.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/QueueSetPolling.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/TaskNotify.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/TimerDemo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/blocktim.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/countsem.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/death.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/dynamic.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/flop.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/integer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/recmutex.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/semtest.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../Project/main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../Source/event_groups.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../Source/include/FreeRTOS.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../Source/include/event_groups.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../Source/include/list.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../Source/include/portable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../Source/include/queue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../Source/include/task.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../Source/include/timers.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../Source/list.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../Source/portable/GCC/POSIX/port.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../Source/portable/GCC/POSIX/portmacro.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../Source/portable/MemMang/heap_1.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../Source/queue.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../Source/tasks.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../Source/timers.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="../../Demo/Common/Minimal/AbortDelay.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/BlockQ.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/EventGroupsDemo.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/GenQTest.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/IntSemTest.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/PollQ.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/QPeek.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/QueueOverwrite.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/QueueSet.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/QueueSetPolling.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/TaskNotify.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/TimerDemo.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/blocktim.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/countsem.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/death.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/dynamic.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/flop.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/integer.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/recmutex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/Minimal/semtest.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/AbortDelay.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/BlockQ.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/EventGroupsDemo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/GenQTest.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/IntSemTest.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/PollQ.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/QPeek.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/QueueOverwrite.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/QueueSet.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/QueueSetPolling.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/TaskNotify.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/TimerDemo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/blocktim.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/countsem.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/death.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/dynamic.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/flop.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/integer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/recmutex.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../Demo/Common/include/semtest.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../Project/main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../Source/event_groups.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../Source/include/FreeRTOS.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../Source/include/event_groups.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../Source/include/list.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../Source/include/portable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../Source/include/queue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../Source/include/task.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../Source/include/timers.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../Source/list.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../Source/portable/GCC/POSIX/port.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../Source/portable/GCC/POSIX/portmacro.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../Source/portable/MemMang/heap_1.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../Source/queue.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../Source/tasks.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../Source/timers.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
