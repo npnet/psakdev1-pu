@@ -2590,9 +2590,6 @@ USE_MDFILE_AS_MAINPAGE = docs/mainpage.md
 RECURSIVE              = YES
 
 EXCLUDE_PATTERNS       = \
-    */_memfault/*        \
-    */_Particle/*        \
-    */_RT-Thread/*       \
     */driver/CMSIS/*     \
     */doc/html/*         \
     */out/*              \
